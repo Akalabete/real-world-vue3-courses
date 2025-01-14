@@ -31,12 +31,15 @@ onMounted(() => {
       });
   });
 });
+const calculatePlaceLeft = (event) => {
+  return event.capacity - event.attendees.length;
+};
 </script>
 
 <template>
   <h1>Events for Good</h1>
   <div class="events">
-    <EventCard v-for="event in events" :key="event.id" :event="event" />
+    <EventCard v-for="event in events" :key="event.id" :event="event" :placeLeft="calculatePlaceLeft(event)" />
 
     <div class="pagination">
       <router-link
