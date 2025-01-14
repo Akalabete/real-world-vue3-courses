@@ -18,7 +18,7 @@ const props = defineProps({
 <template>
   <router-link
     class="event-link"
-    :to="{ name: 'EventDetails', params: { id: props.event.id } }"
+    :to="{ name: 'EventDetails', params: { id: props.event.id, placeLeft: props.placeLeft } }"
   >
     <div class="event-card">
       <h2>{{ props.event.title }}</h2>

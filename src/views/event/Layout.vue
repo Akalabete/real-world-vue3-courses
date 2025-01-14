@@ -10,10 +10,13 @@ const router = useRouter();
 const id = computed(() => props.id);
 
 const event = ref(null);
+
+const placeLeft = ref(0);
 onMounted(() => {
   EventService.getEvent(id.value)
     .then((response) => {
       event.value = response.data;
+      placeLeft.value = event.value.capacity - event.value.attendees.length;
     })
     .catch((error) => {
       if (error.response && error.response.status == 404) {
@@ -38,6 +41,6 @@ onMounted(() => {
       |
       <router-link :to="{ name: 'EventEdit' }">Edit</router-link>
     </div>
-    <router-view :event="event" />
+    <router-view :event="event" :placeLeft="placeLeft" />
   </div>
 </template>
