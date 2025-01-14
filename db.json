@@ -4,6 +4,17 @@
       "id": 123,
       "category": "animal welfare",
       "title": "Cat Adoption Day",
+      "attendees": [
+        {
+          "name": "Jane Doe",
+          "email": "jane.doe@xyz.com"
+        },
+        {
+          "name": "John Smith",
+          "email": "johnsmith@gmail.com"
+        }
+      ],
+      "maximumAttendees": 10,
       "description": "Find your new feline friend at this event.",
       "location": "Meow Town",
       "date": "January 28, 2022",
@@ -15,6 +26,17 @@
       "id": 456,
       "category": "food",
       "title": "Community Gardening",
+      "attendees": [
+        {
+          "name": "Jane Doe",
+          "email": "jane.doe@xyz.com"
+        },
+        {
+          "name": "John Smith",
+          "email": "johnsmith@gmail.com"
+        }
+      ],
+      "maximumAttendees": 10,
       "description": "Join us as we tend to the community edible plants.",
       "location": "Flora City",
       "date": "March 14, 2022",
@@ -24,6 +46,17 @@
     },
     {
       "id": 789,
+      "attendees": [
+        {
+          "name": "Jane Doe",
+          "email": "jane.doe@xyz.com"
+        },
+        {
+          "name": "John Smith",
+          "email": "johnsmith@gmail.com"
+        }
+      ],
+      "maximumAttendees": 10,
       "category": "sustainability",
       "title": "Beach Cleanup",
       "description": "Help pick up trash along the shore.",
@@ -37,6 +70,17 @@
       "id": 1001,
       "category": "animal welfare",
       "title": "Dog Adoption Day",
+      "attendees": [
+        {
+          "name": "Jane Doe",
+          "email": "jane.doe@xyz.com"
+        },
+        {
+          "name": "John Smith",
+          "email": "johnsmith@gmail.com"
+        }
+      ],
+      "maximumAttendees": 10,
       "description": "Find your new canine friend at this event.",
       "location": "Woof Town",
       "date": "August 28, 2022",
@@ -48,6 +92,17 @@
       "id": 1002,
       "category": "food",
       "title": "Canned Food Drive",
+      "attendees": [
+        {
+          "name": "Jane Doe",
+          "email": "jane.doe@xyz.com"
+        },
+        {
+          "name": "John Smith",
+          "email": "johnsmith@gmail.com"
+        }
+      ],
+      "maximumAttendees": 10,
       "description": "Bring your canned food to donate to those in need.",
       "location": "Tin City",
       "date": "September 14, 2022",
@@ -59,6 +114,17 @@
       "id": 1003,
       "category": "sustainability",
       "title": "Highway Cleanup",
+      "attendees": [
+        {
+          "name": "Jane Doe",
+          "email": "jane.doe@xyz.com"
+        },
+        {
+          "name": "John Smith",
+          "email": "johnsmith@gmail.com"
+        }
+      ],
+      "maximumAttendees": 10,
       "description": "Help pick up trash along the highway.",
       "location": "Highway 50",
       "date": "July 22, 2022",

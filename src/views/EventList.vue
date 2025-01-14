@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, computed, watchEffect, defineProps } from "vue";
+import { ref, onMounted, computed, watchEffect } from "vue";
 import EventCard from "@/components/EventCard.vue";
 import EventService from "@/services/EventService.js";
 import { useRouter } from "vue-router";
